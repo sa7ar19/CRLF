@@ -59,11 +59,11 @@ The whole part of the query beginning with `%0d%0a` will be handled by the ser
 
 getting redirected. Below is the POC —
 
-![1_EZMcORKM2QPG_vXC-Fy4pw.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c58282cd-5556-4be5-bb07-5de1754514e0/1_EZMcORKM2QPG_vXC-Fy4pw.png)
+![1_EZMcORKM2QPG_vXC-Fy4pw.png](./ex1.png)
 
 Now the Server responds to this request by injecting the CRLF characters in the response , you will find “Location” http header has been set in the http response with the value “[http://www.evilzone.org](http://www.evilzone.org/)” as injected via the CRLF payload in the below screesnshot—
 
-![1_ieQQ71kALe3qFVEKi1aMQA.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cad1c738-97dc-4242-ae93-e4f5ba618ce3/1_ieQQ71kALe3qFVEKi1aMQA.png)
+![1_ieQQ71kALe3qFVEKi1aMQA.png](./ex2.png)
 
 ---
 
